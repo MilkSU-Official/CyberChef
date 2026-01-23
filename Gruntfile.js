@@ -290,6 +290,10 @@ module.exports = function (grunt) {
                     {
                         src: ["build/prod/index.html"],
                         dest: "build/prod/index.html"
+                    },
+                    {
+                        src: ["src/web/static/CNAME"],
+                        dest: "build/prod/CNAME"
                     }
                 ]
             },
