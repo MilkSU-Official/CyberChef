@@ -22,7 +22,7 @@ class CipherSaber2Encrypt extends Operation {
 
         this.name = "CipherSaber2 Encrypt";
         this.module = "Crypto";
-        this.description = "CipherSaber 是一种基于 RC4 流密码的简单对称加密协议。它提供了相当强的消息机密性保护，但其设计足够简单，即使是新手程序员也可以记住算法并从头开始实现它。"
+        this.description = "CipherSaber 是一种基于 RC4 流密码的简单对称加密协议。它提供了相当强的消息机密性保护，但其设计足够简单，即使是新手程序员也可以记住算法并从头开始实现它。";
         this.infoURL = "https://wikipedia.org/wiki/CipherSaber";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

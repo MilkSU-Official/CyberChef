@@ -22,7 +22,7 @@ class RegularExpression extends Operation {
 
         this.name = "Regular expression";
         this.module = "Regex";
-        this.description = "定义您自己的正则表达式（regex）来搜索输入数据，可选择从预定义模式列表中选择。<br><br>支持扩展正则语法，包括“点匹配所有”标志、命名捕获组、完整 Unicode 覆盖（包括 <code>\p{}</code> 类别和脚本以及星界代码）和递归匹配。";
+        this.description = "定义您自己的正则表达式（regex）来搜索输入数据，可选择从预定义模式列表中选择。<br><br>支持扩展正则语法，包括“点匹配所有”标志、命名捕获组、完整 Unicode 覆盖（包括 <code>p{}</code> 类别和脚本以及星界代码）和递归匹配。";
         this.infoURL = "https://wikipedia.org/wiki/Regular_expression";
         this.inputType = "string";
         this.outputType = "html";
