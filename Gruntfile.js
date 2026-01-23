@@ -32,6 +32,12 @@ module.exports = function (grunt) {
             "copy:standalone", "zip:standalone", "clean:standalone", "exec:calcDownloadHash", "chmod"
         ]);
 
+    grunt.registerTask("prod:fast",
+        "Creates a faster production build for quick iteration (skips lint, analyzer, minify and zip).",
+        [
+            "clean:prod", "clean:config", "exec:generateConfig", "findModules", "webpack:webFast"
+        ]);
+
     grunt.registerTask("node",
         "Compiles CyberChef into a single NodeJS module.",
         [
@@ -102,7 +108,7 @@ module.exports = function (grunt) {
          * Configuration for Webpack production build. Defined as a function so that it
          * can be recalculated when new modules are generated.
          */
-        webpackProdConf = () => {
+        webpackProdConf = ({fast = false} = {}) => {
             return {
                 mode: "production",
                 target: "web",
@@ -130,18 +136,20 @@ module.exports = function (grunt) {
                         compileYear: compileYear,
                         compileTime: compileTime,
                         version: pkg.version,
-                        minify: {
+                        minify: fast ? false : {
                             removeComments: true,
                             collapseWhitespace: true,
                             minifyJS: true,
                             minifyCSS: true
                         }
                     }),
-                    new BundleAnalyzerPlugin({
-                        analyzerMode: "static",
-                        reportFilename: "BundleAnalyzerReport.html",
-                        openAnalyzer: false
-                    }),
+                    ...(fast ? [] : [
+                        new BundleAnalyzerPlugin({
+                            analyzerMode: "static",
+                            reportFilename: "BundleAnalyzerReport.html",
+                            openAnalyzer: false
+                        })
+                    ])
                 ]
             };
         };
@@ -202,6 +210,7 @@ module.exports = function (grunt) {
             options: webpackConfig,
             myConfig: webpackConfig,
             web: webpackProdConf(),
+            webFast: webpackProdConf({fast: true}),
         },
         "webpack-dev-server": {
             options: webpackConfig,
