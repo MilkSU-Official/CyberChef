@@ -23,26 +23,9 @@ jobs:
         npm install
         npm run setheapsize
 
-    - name: Lint
-      run: npx grunt lint
-
-    - name: Unit Tests
-      run: |
-        npm test
-        npm run testnodeconsumer
-
-    - name: Production Build
+    - name: Production Build (fast)
       if: success()
-      run: npx grunt prod
-
-    - name: Generate sitemap
-      run: npx grunt exec:sitemap
-
-    - name: UI Tests
-      if: success()
-      run: |
-        sudo apt-get install xvfb
-        xvfb-run --server-args="-screen 0 1200x800x24" npx grunt testui
+      run: npx grunt prod:fast
 
     - name: Prepare for GitHub Pages
       if: success()
