@@ -22,7 +22,7 @@ class Bzip2Compress extends Operation {
 
         this.name = "Bzip2 Compress";
         this.module = "Compression";
-        this.description = "Bzip2 is a compression library developed by Julian Seward (of GHC fame) that uses the Burrows-Wheeler algorithm. It only supports compressing single files and its compression is slow, however is more effective than Deflate (.gz & .zip).";
+        this.description = "Bzip2 是由 Julian Seward（GHC 的开发者）开发的压缩库，使用 Burrows-Wheeler 算法。它仅支持压缩单个文件，其压缩速度较慢，但比 Deflate (.gz 和 .zip) 更有效。";
         this.infoURL = "https://wikipedia.org/wiki/Bzip2";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

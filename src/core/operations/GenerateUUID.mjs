@@ -21,13 +21,13 @@ class GenerateUUID extends Operation {
         this.name = "Generate UUID";
         this.module = "Crypto";
         this.description =
-            "Generates an RFC 9562 (formerly RFC 4122) compliant Universally Unique Identifier (UUID), " +
-            "also known as a Globally Unique Identifier (GUID).<br>" +
+            "生成符合 RFC 9562（原 RFC 4122）的通用唯一标识符 (UUID)，" +
+            "也称为全局唯一标识符 (GUID)。<br>" +
             "<br>" +
-            "We currently support generating the following UUID versions:<br>" +
+            "我们目前支持生成以下 UUID 版本：<br>" +
             "<ul>" +
-            "<li><strong>v1</strong>: Timestamp-based</li>" +
-            "<li><strong>v3</strong>: Namespace w/ MD5</li>" +
+            "<li><strong>v1</strong>：基于时间戳</li>" +
+            "<li><strong>v3</strong>：命名空间 w/ MD5</li>" +
             "<li><strong>v4</strong>: Random (default)</li>" +
             "<li><strong>v5</strong>: Namespace w/ SHA-1</li>" +
             "<li><strong>v6</strong>: Timestamp, reordered</li>" +

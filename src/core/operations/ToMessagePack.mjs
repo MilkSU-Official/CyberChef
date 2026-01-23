@@ -22,7 +22,7 @@ class ToMessagePack extends Operation {
 
         this.name = "To MessagePack";
         this.module = "Code";
-        this.description = "Converts JSON to MessagePack encoded byte buffer. MessagePack is a computer data interchange format. It is a binary form for representing simple data structures like arrays and associative arrays.";
+        this.description = "将 JSON 转换为 MessagePack 编码的字节缓冲区。MessagePack 是一种计算机数据交换格式。它是用于表示简单数据结构（如数组和关联数组）的二进制形式。";
         this.infoURL = "https://wikipedia.org/wiki/MessagePack";
         this.inputType = "JSON";
         this.outputType = "ArrayBuffer";

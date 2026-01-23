@@ -20,7 +20,7 @@ class LMHash extends Operation {
 
         this.name = "LM Hash";
         this.module = "Crypto";
-        this.description = "An LM Hash, or LAN Manager Hash, is a deprecated way of storing passwords on old Microsoft operating systems. It is particularly weak and can be cracked in seconds on modern hardware using rainbow tables.";
+        this.description = "LM Hash 或 LAN Manager Hash 是一种在旧版 Microsoft 操作系统上存储密码的已废弃方法。它特别脆弱,在现代硬件上使用彩虹表可以在几秒钟内被破解。";
         this.infoURL = "https://wikipedia.org/wiki/LAN_Manager#Password_hashing_algorithm";
         this.inputType = "string";
         this.outputType = "string";

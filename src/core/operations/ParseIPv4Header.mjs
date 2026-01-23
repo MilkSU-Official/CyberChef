@@ -24,7 +24,7 @@ class ParseIPv4Header extends Operation {
 
         this.name = "Parse IPv4 header";
         this.module = "Default";
-        this.description = "Given an IPv4 header, this operations parses and displays each field in an easily readable format.";
+        this.description = "给定一个 IPv4 头部，此操作解析并以易于阅读的格式显示每个字段。";
         this.infoURL = "https://wikipedia.org/wiki/IPv4#Header";
         this.inputType = "string";
         this.outputType = "html";

@@ -20,7 +20,7 @@ class Whirlpool extends Operation {
 
         this.name = "Whirlpool";
         this.module = "Crypto";
-        this.description = "Whirlpool is a cryptographic hash function designed by Vincent Rijmen (co-creator of AES) and Paulo S. L. M. Barreto, who first described it in 2000.<br><br>Several variants exist:<ul><li>Whirlpool-0 is the original version released in 2000.</li><li>Whirlpool-T is the first revision, released in 2001, improving the generation of the s-box.</li><li>Whirlpool is the latest revision, released in 2003, fixing a flaw in the diffusion matrix.</li></ul>";
+        this.description = "Whirlpool 是由 Vincent Rijmen（AES 联合创始人）和 Paulo S. L. M. Barreto 设计的加密哈希函数，他们于 2000 年首次描述了它。<br><br>存在几个变体：<ul><li>Whirlpool-0 是 2000 年发布的原始版本。</li><li>Whirlpool-T 是 2001 年发布的第一次修订，改进了 s-box 的生成。</li><li>Whirlpool 是 2003 年发布的最新修订，修复了扩散矩阵中的缺陷。</li></ul>";
         this.infoURL = "https://wikipedia.org/wiki/Whirlpool_(cryptography)";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

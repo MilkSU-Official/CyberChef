@@ -21,7 +21,7 @@ class ParseDateTime extends Operation {
 
         this.name = "Parse DateTime";
         this.module = "Default";
-        this.description = "Parses a DateTime string in your specified format and displays it in whichever timezone you choose with the following information:<ul><li>Date</li><li>Time</li><li>Period (AM/PM)</li><li>Timezone</li><li>UTC offset</li><li>Daylight Saving Time</li><li>Leap year</li><li>Days in this month</li><li>Day of year</li><li>Week number</li><li>Quarter</li></ul>Run with no input to see format string examples if required.";
+        this.description = "解析指定格式的日期时间字符串，并在您选择的时区中显示以下信息：<ul><li>日期</li><li>时间</li><li>时段（AM/PM）</li><li>时区</li><li>UTC 偏移</li><li>夏令时</li><li>闰年</li><li>本月天数</li><li>年中第几天</li><li>周数</li><li>季度</li></ul>如需查看格式字符串示例，请在没有输入的情况下运行。";
         this.infoURL = "https://momentjs.com/docs/#/parsing/string-format/";
         this.inputType = "string";
         this.outputType = "html";

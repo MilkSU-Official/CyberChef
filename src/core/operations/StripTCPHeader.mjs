@@ -21,7 +21,7 @@ class StripTCPHeader extends Operation {
 
         this.name = "Strip TCP header";
         this.module = "Default";
-        this.description = "Strips the TCP header from a TCP segment, outputting the payload.";
+        this.description = "从 TCP 段中剥离 TCP 头部，输出有效载荷。";
         this.infoURL = "https://wikipedia.org/wiki/Transmission_Control_Protocol";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

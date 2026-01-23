@@ -19,7 +19,7 @@ class AlternatingCaps extends Operation {
 
         this.name = "Alternating Caps";
         this.module = "Default";
-        this.description = "Alternating caps, also known as studly caps, sticky caps, or spongecase is a form of text notation in which the capitalization of letters varies by some pattern, or arbitrarily. An example of this would be spelling 'alternative caps' as 'aLtErNaTiNg CaPs'.";
+        this.description = "交替大小写，也称为 studly caps、sticky caps 或 spongecase，是一种文本表示法，其中字母的大小写按某种模式或任意变化。例如，将 'alternating caps' 拼写为 'aLtErNaTiNg CaPs'。";
         this.infoURL = "https://en.wikipedia.org/wiki/Alternating_caps";
         this.inputType = "string";
         this.outputType = "string";

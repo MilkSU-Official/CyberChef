@@ -29,7 +29,7 @@ class OpticalCharacterRecognition extends Operation {
 
         this.name = "Optical Character Recognition";
         this.module = "OCR";
-        this.description = "Optical character recognition or optical character reader (OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text.<br><br>Supported image formats: png, jpg, bmp, pbm.";
+        this.description = "光学字符识别或光学字符阅读器(OCR)是将打字、手写或印刷文本的图像机械或电子转换为机器编码文本的过程。<br><br>支持的图像格式:png、jpg、bmp、pbm。";
         this.infoURL = "https://wikipedia.org/wiki/Optical_character_recognition";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

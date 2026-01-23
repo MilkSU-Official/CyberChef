@@ -24,7 +24,7 @@ class ContainImage extends Operation {
 
         this.name = "Contain Image";
         this.module = "Image";
-        this.description = "Scales an image to the specified width and height, maintaining the aspect ratio. The image may be letterboxed.";
+        this.description = "将图像缩放到指定的宽度和高度，保持纵横比。图像可能会被加上信箱。";
         this.infoURL = "";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

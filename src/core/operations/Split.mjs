@@ -20,7 +20,7 @@ class Split extends Operation {
 
         this.name = "Split";
         this.module = "Default";
-        this.description = "Splits a string into sections around a given delimiter.";
+        this.description = "按给定的分隔符将字符串分割为多个部分。";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

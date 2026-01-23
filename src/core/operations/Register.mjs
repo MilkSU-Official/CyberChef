@@ -23,7 +23,7 @@ class Register extends Operation {
         this.name = "Register";
         this.flowControl = true;
         this.module = "Regex";
-        this.description = "Extract data from the input and store it in registers which can then be passed into subsequent operations as arguments. Regular expression capture groups are used to select the data to extract.<br><br>To use registers in arguments, refer to them using the notation <code>$Rn</code> where n is the register number, starting at 0.<br><br>For example:<br>Input: <code>Test</code><br>Extractor: <code>(.*)</code><br>Argument: <code>$R0</code> becomes <code>Test</code><br><br>Registers can be escaped in arguments using a backslash. e.g. <code>\\$R0</code> would become <code>$R0</code> rather than <code>Test</code>.";
+        this.description = "从输入中提取数据并存储到寄存器中，然后可以将它们作为参数传递给后续操作。使用正则表达式捕获组来选择要提取的数据。<br><br>要在参数中使用寄存器，请使用表示法 <code>$Rn</code> 引用它们，其中 n 是寄存器编号，从 0 开始。<br><br>例如：<br>输入：<code>Test</code><br>提取器：<code>(.*)</code><br>参数：<code>$R0</code> 变为 <code>Test</code><br><br>可以在参数中使用反斜杠转义寄存器。例如 <code>\\$R0</code> 将变为 <code>$R0</code> 而不是 <code>Test</code>。";
         this.infoURL = "https://wikipedia.org/wiki/Regular_expression#Syntax";
         this.inputType = "string";
         this.outputType = "string";

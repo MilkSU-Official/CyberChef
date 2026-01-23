@@ -21,7 +21,7 @@ class BifidCipherDecode extends Operation {
 
         this.name = "Bifid Cipher Decode";
         this.module = "Ciphers";
-        this.description = "The Bifid cipher is a cipher which uses a Polybius square in conjunction with transposition, which can be fairly difficult to decipher without knowing the alphabet keyword.";
+        this.description = "Bifid 密码是一种结合了波利比奥斯方阵和换位加密的密码。在不知道字母表关键词的情况下，破解难度相当大。";
         this.infoURL = "https://wikipedia.org/wiki/Bifid_cipher";
         this.inputType = "string";
         this.outputType = "string";

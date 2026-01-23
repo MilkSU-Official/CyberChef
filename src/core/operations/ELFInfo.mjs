@@ -22,7 +22,7 @@ class ELFInfo extends Operation {
 
         this.name = "ELF Info";
         this.module = "Default";
-        this.description = "Implements readelf-like functionality. This operation will extract the ELF Header, Program Headers, Section Headers and Symbol Table for an ELF file.";
+        this.description = "实现类似 readelf 的功能。此操作将为 ELF 文件提取 ELF 头、程序头、节头和符号表。";
         this.infoURL = "https://www.wikipedia.org/wiki/Executable_and_Linkable_Format";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

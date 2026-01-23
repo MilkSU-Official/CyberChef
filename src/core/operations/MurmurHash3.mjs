@@ -23,7 +23,7 @@ class MurmurHash3 extends Operation {
 
         this.name = "MurmurHash3";
         this.module = "Hashing";
-        this.description = "Generates a MurmurHash v3 for a string input and an optional seed input";
+        this.description = "为字符串输入和可选的种子输入生成 MurmurHash v3";
         this.infoURL = "https://wikipedia.org/wiki/MurmurHash";
         this.inputType = "string";
         this.outputType = "number";

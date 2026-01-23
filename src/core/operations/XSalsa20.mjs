@@ -23,7 +23,7 @@ class XSalsa20 extends Operation {
 
         this.name = "XSalsa20";
         this.module = "Ciphers";
-        this.description = "XSalsa20 is a variant of the Salsa20 stream cipher designed by Daniel J. Bernstein; XSalsa uses longer nonces.<br><br><b>Key:</b> XSalsa20 uses a key of 16 or 32 bytes (128 or 256 bits).<br><br><b>Nonce:</b> XSalsa20 uses a nonce of 24 bytes (192 bits).<br><br><b>Counter:</b> XSalsa uses a counter of 8 bytes (64 bits). The counter starts at zero at the start of the keystream, and is incremented at every 64 bytes.";
+        this.description = "XSalsa20 是由 Daniel J. Bernstein 设计的 Salsa20 流密码的变体；XSalsa 使用更长的 nonce。<br><br><b>密钥：</b> XSalsa20 使用 16 或 32 字节（128 或 256 位）的密钥。<br><br><b>Nonce：</b> XSalsa20 使用 24 字节（192 位）的 nonce。<br><br><b>计数器：</b> XSalsa 使用 8 字节（64 位）的计数器。计数器在密钥流开始时从零开始，并在每 64 字节增加。";
         this.infoURL = "https://en.wikipedia.org/wiki/Salsa20#XSalsa20_with_192-bit_nonce";
         this.inputType = "string";
         this.outputType = "string";

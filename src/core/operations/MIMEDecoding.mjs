@@ -24,7 +24,7 @@ class MIMEDecoding extends Operation {
 
         this.name = "MIME Decoding";
         this.module = "Default";
-        this.description = "Enables the decoding of MIME message header extensions for non-ASCII text";
+        this.description = "启用非 ASCII 文本的 MIME 消息头扩展解码";
         this.infoURL = "https://tools.ietf.org/html/rfc2047";
         this.inputType = "byteArray";
         this.outputType = "string";

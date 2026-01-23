@@ -23,7 +23,7 @@ class FromBase45 extends Operation {
 
         this.name = "From Base45";
         this.module = "Default";
-        this.description = "Base45 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers. The high number base results in shorter strings than with the decimal or hexadecimal system. Base45 is optimized for usage with QR codes.";
+        this.description = "Base45 是一种用于编码任意字节数据的表示法，使用一组受限的符号集，便于人类使用和计算机处理。高基数的数制使字符串比十进制或十六进制系统更短。Base45 针对二维码的使用进行了优化。";
         this.infoURL = "https://wikipedia.org/wiki/List_of_numeral_systems";
         this.inputType = "string";
         this.outputType = "byteArray";

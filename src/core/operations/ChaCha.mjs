@@ -101,7 +101,7 @@ class ChaCha extends Operation {
 
         this.name = "ChaCha";
         this.module = "Ciphers";
-        this.description = "ChaCha is a stream cipher designed by Daniel J. Bernstein. It is a variant of the Salsa stream cipher. Several parameterizations exist; 'ChaCha' may refer to the original construction, or to the variant as described in RFC-8439. ChaCha is often used with Poly1305, in the ChaCha20-Poly1305 AEAD construction.<br><br><b>Key:</b> ChaCha uses a key of 16 or 32 bytes (128 or 256 bits).<br><br><b>Nonce:</b> ChaCha uses a nonce of 8 or 12 bytes (64 or 96 bits).<br><br><b>Counter:</b> ChaCha uses a counter of 4 or 8 bytes (32 or 64 bits); together, the nonce and counter must add up to 16 bytes. The counter starts at zero at the start of the keystream, and is incremented at every 64 bytes.";
+        this.description = "ChaCha 是由 Daniel J. Bernstein 设计的流密码。它是 Salsa 流密码的变体。存在多种参数化；‘ChaCha’可以指原始构造，或指 RFC-8439 中描述的变体。ChaCha 通常与 Poly1305 一起使用，在 ChaCha20-Poly1305 AEAD 构造中。<br><br><b>密钥：</b> ChaCha 使用 16 或 32 字节（128 或 256 位）的密钥。<br><br><b>Nonce：</b> ChaCha 使用 8 或 12 字节（64 或 96 位）的 nonce。<br><br><b>计数器：</b> ChaCha 使用 4 或 8 字节（32 或 64 位）的计数器；nonce 和计数器加起来必须为 16 字节。计数器在密钥流开始时从零开始，并在每 64 字节时递增。";
         this.infoURL = "https://wikipedia.org/wiki/Salsa20#ChaCha_variant";
         this.inputType = "string";
         this.outputType = "string";

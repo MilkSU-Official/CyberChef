@@ -20,7 +20,7 @@ class MD2 extends Operation {
 
         this.name = "MD2";
         this.module = "Crypto";
-        this.description = "The MD2 (Message-Digest 2) algorithm is a cryptographic hash function developed by Ronald Rivest in 1989. The algorithm is optimized for 8-bit computers.<br><br>Although MD2 is no longer considered secure, even as of 2014, it remains in use in public key infrastructures as part of certificates generated with MD2 and RSA. The message digest algorithm consists, by default, of 18 rounds.";
+        this.description = "MD2(消息摘要 2)算法是 Ronald Rivest 于 1989 年开发的密码哈希函数。该算法针对 8 位计算机进行了优化。<br><br>尽管 MD2 不再被认为是安全的,但截至 2014 年,它仍在公钥基础设施中作为使用 MD2 和 RSA 生成的证书的一部分使用。消息摘要算法默认由 18 轮组成。";
         this.infoURL = "https://wikipedia.org/wiki/MD2_(cryptography)";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

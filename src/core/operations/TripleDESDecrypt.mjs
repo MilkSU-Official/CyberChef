@@ -22,7 +22,7 @@ class TripleDESDecrypt extends Operation {
 
         this.name = "Triple DES Decrypt";
         this.module = "Ciphers";
-        this.description = "Triple DES applies DES three times to each block to increase key size.<br><br><b>Key:</b> Triple DES uses a key length of 24 bytes (192 bits).<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.<br><br><b>Padding:</b> In CBC and ECB mode, PKCS#7 padding will be used as a default.";
+        this.description = "Triple DES 对每个块应用 DES 三次以增加密钥大小。<br><br><b>密钥：</b> Triple DES 使用 24 字节（192 位）的密钥长度。<br><br><b>IV：</b> 初始化向量应为 8 字节长。如果未输入，将默认为 8 个空字节。<br><br><b>填充：</b> 在 CBC 和 ECB 模式下，将默认使用 PKCS#7 填充。";
         this.infoURL = "https://wikipedia.org/wiki/Triple_DES";
         this.inputType = "string";
         this.outputType = "string";

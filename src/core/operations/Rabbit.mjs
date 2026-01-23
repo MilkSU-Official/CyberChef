@@ -22,7 +22,7 @@ class Rabbit extends Operation {
 
         this.name = "Rabbit";
         this.module = "Ciphers";
-        this.description = "Rabbit is a high-speed stream cipher introduced in 2003 and defined in RFC 4503.<br><br>The cipher uses a 128-bit key and an optional 64-bit initialization vector (IV).<br><br>big-endian: based on RFC4503 and RFC3447<br>little-endian: compatible with Crypto++";
+        this.description = "Rabbit 是 2003 年提出并在 RFC 4503 中定义的高速流密码。<br><br>此密码使用 128 位密钥和可选的 64 位初始化向量 (IV)。<br><br>big-endian：基于 RFC4503 和 RFC3447<br>little-endian：与 Crypto++ 兼容";
         this.infoURL = "https://wikipedia.org/wiki/Rabbit_(cipher)";
         this.inputType = "string";
         this.outputType = "string";

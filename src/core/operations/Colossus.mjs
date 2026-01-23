@@ -26,7 +26,7 @@ class Colossus extends Operation {
         super();
         this.name = "Colossus";
         this.module = "Bletchley";
-        this.description = "Colossus is the name of the world's first electronic computer. Ten Colossi were designed by Tommy Flowers and built at the Post Office Research Labs at Dollis Hill in 1943 during World War 2. They assisted with the breaking of the German Lorenz cipher attachment, a machine created to encipher communications between Hitler and his generals on the front lines.<br><br>To learn more, Virtual Colossus, an online, browser based simulation of a Colossus computer is available at <a href='https://virtualcolossus.co.uk' target='_blank'>virtualcolossus.co.uk</a>.<br><br>A more detailed description of this operation can be found <a href='https://github.com/gchq/CyberChef/wiki/Colossus' target='_blank'>here</a>.";
+        this.description = "Colossus 是世界上第一台电子计算机的名称。十台 Colossus 由 Tommy Flowers 设计，并于 1943 年第二次世界大战期间在多利斯山邮局研究实验室建造。它们协助破解了德国 Lorenz 密码附件，这是一台用于加密希特勒与其前线将领之间通信的机器。<br><br>要了解更多信息，可以访问 <a href='https://virtualcolossus.co.uk' target='_blank'>virtualcolossus.co.uk</a> 上的 Virtual Colossus，一个基于浏览器的在线 Colossus 计算机模拟。<br><br>有关此操作的更详细描述可以在<a href='https://github.com/gchq/CyberChef/wiki/Colossus' target='_blank'>这里</a>找到。";
         this.infoURL = "https://wikipedia.org/wiki/Colossus_computer";
         this.inputType = "string";
         this.outputType = "JSON";

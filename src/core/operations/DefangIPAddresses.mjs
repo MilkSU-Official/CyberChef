@@ -20,7 +20,7 @@ class DefangIPAddresses extends Operation {
 
         this.name = "Defang IP Addresses";
         this.module = "Default";
-        this.description = "Takes a IPv4 or IPv6 address and 'Defangs' it, meaning the IP becomes invalid, removing the risk of accidentally utilising it as an IP address.";
+        this.description = "获取 IPv4 或 IPv6 地址并将其‘去威胁化’，意味着 IP 变得无效，消除意外将其用作 IP 地址的风险。";
         this.infoURL = "https://isc.sans.edu/forums/diary/Defang+all+the+things/22744/";
         this.inputType = "string";
         this.outputType = "string";

@@ -23,7 +23,7 @@ class RSAVerify extends Operation {
 
         this.name = "RSA Verify";
         this.module = "Ciphers";
-        this.description = "Verify a message against a signature and a public PEM encoded RSA key.";
+        this.description = "根据签名和 PEM 编码的 RSA 公钥验证消息。";
         this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
         this.inputType = "string";
         this.outputType = "string";

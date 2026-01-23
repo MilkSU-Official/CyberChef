@@ -21,7 +21,7 @@ class XORChecksum extends Operation {
 
         this.name = "XOR Checksum";
         this.module = "Crypto";
-        this.description = "XOR Checksum splits the input into blocks of a configurable size and performs the XOR operation on these blocks.";
+        this.description = "XOR 校验和将输入分割为可配置大小的块，并对这些块执行 XOR 操作。";
         this.infoURL = "https://wikipedia.org/wiki/XOR";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

@@ -24,7 +24,7 @@ class Divide extends Operation {
 
         this.name = "Divide";
         this.module = "Default";
-        this.description = "Divides a list of numbers. If an item in the string is not a number it is excluded from the list.<br><br>e.g. <code>0x0a 8 .5</code> becomes <code>2.5</code>";
+        this.description = "除一个数字列表。如果字符串中的某项不是数字，则将其从列表中排除。<br><br>例如 <code>0x0a 8 .5</code> 变为 <code>2.5</code>";
         this.inputType = "string";
         this.outputType = "BigNumber";
         this.args = [

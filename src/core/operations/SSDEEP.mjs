@@ -20,7 +20,7 @@ class SSDEEP extends Operation {
 
         this.name = "SSDEEP";
         this.module = "Crypto";
-        this.description = "SSDEEP is a program for computing context triggered piecewise hashes (CTPH). Also called fuzzy hashes, CTPH can match inputs that have homologies. Such inputs have sequences of identical bytes in the same order, although bytes in between these sequences may be different in both content and length.<br><br>SSDEEP hashes are now widely used for simple identification purposes (e.g. the 'Basic Properties' section in VirusTotal). Although 'better' fuzzy hashes are available, SSDEEP is still one of the primary choices because of its speed and being a de facto standard.<br><br>This operation is fundamentally the same as the CTPH operation, however their outputs differ in format.";
+        this.description = "SSDEEP 是一个用于计算上下文触发分段哈希(CTPH)的程序。也称为模糊哈希,CTPH 可以匹配具有同源性的输入。此类输入以相同顺序具有相同字节序列,尽管这些序列之间的字节在内容和长度上可能不同。<br><br>SSDEEP 哈希现在广泛用于简单识别目的(例如 VirusTotal 中的 'Basic Properties' 部分)。尽管有 '更好的' 模糊哈希可用,但 SSDEEP 仍然是主要选择之一,因为它速度快且是事实上的标准。<br><br>此操作与 CTPH 操作基本相同,但它们的输出格式不同。";
         this.infoURL = "https://forensics.wiki/ssdeep";
         this.inputType = "string";
         this.outputType = "string";

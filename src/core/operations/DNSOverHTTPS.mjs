@@ -20,11 +20,11 @@ class DNSOverHTTPS extends Operation {
         this.name = "DNS over HTTPS";
         this.module = "Default";
         this.description = [
-            "Takes a single domain name and performs a DNS lookup using DNS over HTTPS.",
+            "接收单个域名并使用 DNS over HTTPS 执行 DNS 查询。",
             "<br><br>",
-            "By default, <a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/'>Cloudflare</a> and <a href='https://developers.google.com/speed/public-dns/docs/dns-over-https'>Google</a> DNS over HTTPS services are supported.",
+            "默认支持 <a href='https://developers.cloudflare.com/1.1.1.1/dns-over-https/'>Cloudflare</a> 和 <a href='https://developers.google.com/speed/public-dns/docs/dns-over-https'>Google</a> DNS over HTTPS 服务。",
             "<br><br>",
-            "Can be used with any service that supports the GET parameters <code>name</code> and <code>type</code>."
+            "可与任何支持 <code>name</code> 和 <code>type</code> GET 参数的服务一起使用。"
         ].join("\n");
         this.infoURL = "https://wikipedia.org/wiki/DNS_over_HTTPS";
         this.inputType = "string";

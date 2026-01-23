@@ -23,7 +23,7 @@ class AESKeyWrap extends Operation {
 
         this.name = "AES Key Wrap";
         this.module = "Ciphers";
-        this.description = "A key wrapping algorithm defined in RFC3394, which is used to protect keys in untrusted storage or communications, using AES.<br><br>This algorithm uses an AES key (KEK: key-encryption key) and a 64-bit IV to encrypt 64-bit blocks.";
+        this.description = "RFC3394 中定义的密钥包装算法，用于使用 AES 保护不受信任的存储或通信中的密钥。<br><br>此算法使用 AES 密钥（KEK：密钥加密密钥）和 64 位 IV 来加密 64 位块。";
         this.infoURL = "https://wikipedia.org/wiki/Key_wrap";
         this.inputType = "string";
         this.outputType = "string";

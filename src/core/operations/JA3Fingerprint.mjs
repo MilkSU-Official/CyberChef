@@ -30,7 +30,7 @@ class JA3Fingerprint extends Operation {
 
         this.name = "JA3 Fingerprint";
         this.module = "Crypto";
-        this.description = "Generates a JA3 fingerprint to help identify TLS clients based on hashing together values from the Client Hello.<br><br>Input: A hex stream of the TLS Client Hello packet application layer.";
+        this.description = "生成 JA3 指纹，通过将 Client Hello 中的值进行哈希来帮助识别 TLS 客户端。<br><br>输入：TLS Client Hello 数据包应用层的十六进制流。";
         this.infoURL = "https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967";
         this.inputType = "string";
         this.outputType = "string";

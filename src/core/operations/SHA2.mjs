@@ -20,7 +20,7 @@ class SHA2 extends Operation {
 
         this.name = "SHA2";
         this.module = "Crypto";
-        this.description = "The SHA-2 (Secure Hash Algorithm 2) hash functions were designed by the NSA. SHA-2 includes significant changes from its predecessor, SHA-1. The SHA-2 family consists of hash functions with digests (hash values) that are 224, 256, 384 or 512 bits: SHA224, SHA256, SHA384, SHA512.<br><br><ul><li>SHA-512 operates on 64-bit words.</li><li>SHA-256 operates on 32-bit words.</li><li>SHA-384 is largely identical to SHA-512 but is truncated to 384 bytes.</li><li>SHA-224 is largely identical to SHA-256 but is truncated to 224 bytes.</li><li>SHA-512/224 and SHA-512/256 are truncated versions of SHA-512, but the initial values are generated using the method described in Federal Information Processing Standards (FIPS) PUB 180-4.</li></ul> The message digest algorithm for SHA256 variants consists, by default, of 64 rounds, and for SHA512 variants, it is, by default, 160.";
+        this.description = "SHA-2（安全哈希算法 2）哈希函数由 NSA 设计。SHA-2 相比前任 SHA-1 有显著变化。SHA-2 家族包含摘要长度为 224、256、384 或 512 位的哈希函数：SHA224、SHA256、SHA384、SHA512。<br><br><ul><li>SHA-512 在 64 位字上运作。</li><li>SHA-256 在 32 位字上运作。</li><li>SHA-384 与 SHA-512 基本相同，但截断为 384 字节。</li><li>SHA-224 与 SHA-256 基本相同，但截断为 224 字节。</li><li>SHA-512/224 和 SHA-512/256 是 SHA-512 的截断版本，但初始值使用 FIPS PUB 180-4 中描述的方法生成。</li></ul>SHA256 变体的消息摘要算法默认包含 64 轮，SHA512 变体默认为 160 轮。";
         this.infoURL = "https://wikipedia.org/wiki/SHA-2";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

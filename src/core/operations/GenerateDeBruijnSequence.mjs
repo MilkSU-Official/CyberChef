@@ -20,7 +20,7 @@ class GenerateDeBruijnSequence extends Operation {
 
         this.name = "Generate De Bruijn Sequence";
         this.module = "Default";
-        this.description = "Generates rolling keycode combinations given a certain alphabet size and key length.";
+        this.description = "生成给定字母表大小和密钥长度的滚动密码组合。";
         this.infoURL = "https://wikipedia.org/wiki/De_Bruijn_sequence";
         this.inputType = "string";
         this.outputType = "string";

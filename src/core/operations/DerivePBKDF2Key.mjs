@@ -21,7 +21,7 @@ class DerivePBKDF2Key extends Operation {
 
         this.name = "Derive PBKDF2 key";
         this.module = "Ciphers";
-        this.description = "PBKDF2 is a password-based key derivation function. It is part of RSA Laboratories' Public-Key Cryptography Standards (PKCS) series, specifically PKCS #5 v2.0, also published as Internet Engineering Task Force's RFC 2898.<br><br>In many applications of cryptography, user security is ultimately dependent on a password, and because a password usually can't be used directly as a cryptographic key, some processing is required.<br><br>A salt provides a large set of keys for any given password, and an iteration count increases the cost of producing keys from a password, thereby also increasing the difficulty of attack.<br><br>If you leave the salt argument empty, a random salt will be generated.";
+        this.description = "PBKDF2 是一种基于密码的密钥派生函数。它是 RSA 实验室的公钥密码学标准（PKCS）系列的一部分，特别是 PKCS #5 v2.0，也作为互联网工程任务组的 RFC 2898 发布。<br><br>在许多密码学应用中，用户安全最终取决于密码，由于密码通常不能直接用作加密密钥，因此需要进行一些处理。<br><br>盐为任何给定的密码提供了大量的密钥集，迭代计数增加了从密码生成密钥的成本，从而也增加了攻击的难度。<br><br>如果您将盐参数留空，将生成随机盐。";
         this.infoURL = "https://wikipedia.org/wiki/PBKDF2";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,13 +22,13 @@ class HTTPRequest extends Operation {
         this.name = "HTTP request";
         this.module = "Default";
         this.description = [
-            "Makes an HTTP request and returns the response.",
+            "发起 HTTP 请求并返回响应。",
             "<br><br>",
-            "This operation supports different HTTP verbs like GET, POST, PUT, etc.",
+            "此操作支持不同的 HTTP 动词，如 GET、POST、PUT 等。",
             "<br><br>",
-            "You can add headers line by line in the format <code>Key: Value</code>",
+            "您可以按行添加请求头，格式为 <code>Key: Value</code>",
             "<br><br>",
-            "The status code of the response, along with a limited selection of exposed headers, can be viewed by checking the 'Show response metadata' option. Only a limited set of response headers are exposed by the browser for security reasons.",
+            "可以通过勾选'显示响应元数据'选项来查看响应的状态码以及部分公开的响应头。出于安全原因，浏览器只公开有限的响应头集合。",
         ].join("\n");
         this.infoURL = "https://wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields";
         this.inputType = "string";

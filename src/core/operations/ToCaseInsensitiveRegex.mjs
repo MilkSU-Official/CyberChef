@@ -21,7 +21,7 @@ class ToCaseInsensitiveRegex extends Operation {
 
         this.name = "To Case Insensitive Regex";
         this.module = "Default";
-        this.description = "Converts a case-sensitive regex string into a case-insensitive regex string in case the i flag is unavailable to you.<br><br>e.g. <code>Mozilla/[0-9].[0-9] .*</code> becomes <code>[mM][oO][zZ][iI][lL][lL][aA]/[0-9].[0-9] .*</code>";
+        this.description = "在 i 标志不可用的情况下，将区分大小写的正则表达式字符串转换为不区分大小写的正则表达式字符串。<br><br>例如：<code>Mozilla/[0-9].[0-9] .*</code> 变为 <code>[mM][oO][zZ][iI][lL][lL][aA]/[0-9].[0-9] .*</code>";
         this.infoURL = "https://wikipedia.org/wiki/Regular_expression";
         this.inputType = "string";
         this.outputType = "string";

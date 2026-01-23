@@ -20,7 +20,7 @@ class CSSBeautify extends Operation {
 
         this.name = "CSS Beautify";
         this.module = "Code";
-        this.description = "Indents and prettifies Cascading Style Sheets (CSS) code.";
+        this.description = "缩进并美化层叠样式表（CSS）代码。";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

@@ -21,7 +21,7 @@ class DefangURL extends Operation {
 
         this.name = "Defang URL";
         this.module = "Default";
-        this.description = "Takes a Universal Resource Locator (URL) and 'Defangs' it; meaning the URL becomes invalid, neutralising the risk of accidentally clicking on a malicious link.<br><br>This is often used when dealing with malicious links or IOCs.<br><br>Works well when combined with the 'Extract URLs' operation.";
+        this.description = "获取通用资源定位符（URL）并将其‘去威胁化’；意味着 URL 变得无效，消除意外点击恶意链接的风险。<br><br>这通常在处理恶意链接或 IOC 时使用。<br><br>与‘Extract URLs’操作结合使用效果很好。";
         this.infoURL = "https://isc.sans.edu/forums/diary/Defang+all+the+things/22744/";
         this.inputType = "string";
         this.outputType = "string";

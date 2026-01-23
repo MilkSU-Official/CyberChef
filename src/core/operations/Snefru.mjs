@@ -20,7 +20,7 @@ class Snefru extends Operation {
 
         this.name = "Snefru";
         this.module = "Crypto";
-        this.description = "Snefru is a cryptographic hash function invented by Ralph Merkle in 1990 while working at Xerox PARC. The function supports 128-bit and 256-bit output. It was named after the Egyptian Pharaoh Sneferu, continuing the tradition of the Khufu and Khafre block ciphers.<br><br>The original design of Snefru was shown to be insecure by Eli Biham and Adi Shamir who were able to use differential cryptanalysis to find hash collisions. The design was then modified by increasing the number of iterations of the main pass of the algorithm from two to eight.";
+        this.description = "Snefru 是 Ralph Merkle 于 1990 年在施乐帕克研究中心工作时发明的加密哈希函数。该函数支持 128 位和 256 位输出。它以埃及法老 Sneferu 命名，延续了 Khufu 和 Khafre 块密码的传统。<br><br>Snefru 的原始设计被 Eli Biham 和 Adi Shamir 证明是不安全的，他们能够使用差分密码分析找到哈希冲突。然后通过将算法主过程的迭代次数从两次增加到八次来修改设计。";
         this.infoURL = "https://wikipedia.org/wiki/Snefru";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

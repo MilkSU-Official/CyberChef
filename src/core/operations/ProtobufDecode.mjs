@@ -21,7 +21,7 @@ class ProtobufDecode extends Operation {
 
         this.name = "Protobuf Decode";
         this.module = "Protobuf";
-        this.description = "Decodes any Protobuf encoded data to a JSON representation of the data using the field number as the field key.<br><br>If a .proto schema is defined, the encoded data will be decoded with reference to the schema. Only one message instance will be decoded. <br><br><u>Show Unknown Fields</u><br>When a schema is used, this option shows fields that are present in the input data but not defined in the schema.<br><br><u>Show Types</u><br>Show the type of a field next to its name. For undefined fields, the wiretype and example types are shown instead.";
+        this.description = "将任何 Protobuf 编码数据解码为数据的 JSON 表示，使用字段编号作为字段键。<br><br>如果定义了 .proto 模式，则将参考模式解码编码数据。只解码一个消息实例。<br><br><u>显示未知字段</u><br>使用模式时，此选项显示输入数据中存在但未在模式中定义的字段。<br><br><u>显示类型</u><br>在字段名称旁边显示字段的类型。对于未定义的字段，改为显示线类型和示例类型。";
         this.infoURL = "https://wikipedia.org/wiki/Protocol_Buffers";
         this.inputType = "ArrayBuffer";
         this.outputType = "JSON";

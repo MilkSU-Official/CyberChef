@@ -26,7 +26,7 @@ class ParseTCP extends Operation {
 
         this.name = "Parse TCP";
         this.module = "Default";
-        this.description = "Parses a TCP header and payload (if present).";
+        this.description = "解析 TCP 头部和有效载荷（如果存在）。";
         this.infoURL = "https://wikipedia.org/wiki/Transmission_Control_Protocol";
         this.inputType = "string";
         this.outputType = "json";

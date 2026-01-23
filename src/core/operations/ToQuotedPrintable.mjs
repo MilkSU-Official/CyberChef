@@ -23,7 +23,7 @@ class ToQuotedPrintable extends Operation {
 
         this.name = "To Quoted Printable";
         this.module = "Default";
-        this.description = "Quoted-Printable, or QP encoding, is an encoding using printable ASCII characters (alphanumeric and the equals sign '=') to transmit 8-bit data over a 7-bit data path or, generally, over a medium which is not 8-bit clean. It is defined as a MIME content transfer encoding for use in e-mail.<br><br>QP works by using the equals sign '=' as an escape character. It also limits line length to 76, as some software has limits on line length.";
+        this.description = "Quoted-Printable 或 QP 编码是一种使用可打印 ASCII 字符（字母数字和等号 '='）通过 7 位数据路径或通常通过非 8 位清洁的介质传输 8 位数据的编码。它被定义为电子邮件中使用的 MIME 内容传输编码。<br><br>QP 通过使用等号 '=' 作为转义字符来工作。它还将行长度限制为 76，因为某些软件对行长度有限制。";
         this.infoURL = "https://wikipedia.org/wiki/Quoted-printable";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

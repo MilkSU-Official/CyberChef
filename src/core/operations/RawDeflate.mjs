@@ -29,7 +29,7 @@ class RawDeflate extends Operation {
 
         this.name = "Raw Deflate";
         this.module = "Compression";
-        this.description = "Compresses data using the deflate algorithm with no headers.";
+        this.description = "使用没有头的 deflate 算法压缩数据。";
         this.infoURL = "https://wikipedia.org/wiki/DEFLATE";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

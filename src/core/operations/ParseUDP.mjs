@@ -24,7 +24,7 @@ class ParseUDP extends Operation {
 
         this.name = "Parse UDP";
         this.module = "Default";
-        this.description = "Parses a UDP header and payload (if present).";
+        this.description = "解析 UDP 头部和有效载荷（如果存在）。";
         this.infoURL = "https://wikipedia.org/wiki/User_Datagram_Protocol";
         this.inputType = "string";
         this.outputType = "json";

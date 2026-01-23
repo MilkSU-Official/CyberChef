@@ -19,7 +19,7 @@ class FangURL extends Operation {
 
         this.name = "Fang URL";
         this.module = "Default";
-        this.description = "Takes a 'Defanged' Universal Resource Locator (URL) and 'Fangs' it. Meaning, it removes the alterations (defanged) that render it useless so that it can be used again.";
+        this.description = "处理一个“阐割”的通用资源定位符（URL）并“去阐割”它。即，它移除使其无法使用的更改（阐割），以便可以再次使用。";
         this.infoURL = "https://isc.sans.edu/forums/diary/Defang+all+the+things/22744/";
         this.inputType = "string";
         this.outputType = "string";

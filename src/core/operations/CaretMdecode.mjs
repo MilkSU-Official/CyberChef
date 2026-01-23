@@ -21,7 +21,7 @@ class CaretMdecode extends Operation {
 
         this.name = "Caret/M-decode";
         this.module = "Default";
-        this.description = "Decodes caret or M-encoded strings, i.e. ^M turns into a newline, M-^] turns into 0x9d. Sources such as `cat -v`.\n\nPlease be aware that when using `cat -v` ^_ (caret-underscore) will not be encoded, but represents a valid encoding (namely that of 0x1f).";
+        this.description = "解码插入符或 M 编码的字符串，即 ^M 转换为换行符，M-^] 转换为 0x9d。来源如 `cat -v`。\n\n请注意，当使用 `cat -v` 时，^_（插入符-下划线）将不会被编码，但表示有效的编码（即 0x1f）。";
         this.infoURL = "https://en.wikipedia.org/wiki/Caret_notation";
         this.inputType = "string";
         this.outputType = "byteArray";

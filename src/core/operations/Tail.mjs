@@ -21,7 +21,7 @@ class Tail extends Operation {
 
         this.name = "Tail";
         this.module = "Default";
-        this.description = "Like the UNIX tail utility.<br>Gets the last n lines.<br>Optionally you can select all lines after line n by entering a negative value for n.<br>The delimiter can be changed so that instead of lines, fields (i.e. commas) are selected instead.";
+        this.description = "类似于 UNIX tail 实用程序。<br>获取最后 n 行。<br>可选择通过输入负数 n 来选择 n 行之后的所有行。<br>可以更改分隔符，以便选择字段（如逗号）而不是行。";
         this.infoURL = "https://wikipedia.org/wiki/Tail_(Unix)";
         this.inputType = "string";
         this.outputType = "string";

@@ -22,7 +22,7 @@ class ParseQRCode extends Operation {
 
         this.name = "Parse QR Code";
         this.module = "Image";
-        this.description = "Reads an image file and attempts to detect and read a Quick Response (QR) code from the image.<br><br><u>Normalise Image</u><br>Attempts to normalise the image before parsing it to improve detection of a QR code.";
+        this.description = "读取图像文件并尝试从图像中检测和读取快速响应 (QR) 码。<br><br><u>标准化图像</u><br>在解析图像之前尝试对其进行标准化，以改善 QR 码的检测。";
         this.infoURL = "https://wikipedia.org/wiki/QR_code";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

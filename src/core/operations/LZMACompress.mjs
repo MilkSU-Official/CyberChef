@@ -23,7 +23,7 @@ class LZMACompress extends Operation {
 
         this.name = "LZMA Compress";
         this.module = "Compression";
-        this.description = "Compresses data using the Lempel\u2013Ziv\u2013Markov chain algorithm. Compression mode determines the speed and effectiveness of the compression: 1 is fastest and less effective, 9 is slowest and most effective";
+        this.description = "使用 Lempel–Ziv–Markov 链算法压缩数据。压缩模式决定压缩的速度和效果:1 最快但效果较差,9 最慢但效果最好";
         this.infoURL = "https://wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";

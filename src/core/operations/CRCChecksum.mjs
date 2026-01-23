@@ -20,7 +20,7 @@ class CRCChecksum extends Operation {
 
         this.name = "CRC Checksum";
         this.module = "Default";
-        this.description = "A Cyclic Redundancy Check (<b>CRC</b>) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data.";
+        this.description = "循环冗余校验（<b>CRC</b>）是一种错误检测代码，通常用于数字网络和存储设备中以检测原始数据的意外更改。";
         this.infoURL = "https://wikipedia.org/wiki/Cyclic_redundancy_check";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

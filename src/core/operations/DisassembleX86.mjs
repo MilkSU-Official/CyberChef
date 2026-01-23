@@ -21,7 +21,7 @@ class DisassembleX86 extends Operation {
 
         this.name = "Disassemble x86";
         this.module = "Shellcode";
-        this.description = "Disassembly is the process of translating machine language into assembly language.<br><br>This operation supports 64-bit, 32-bit and 16-bit code written for Intel or AMD x86 processors. It is particularly useful for reverse engineering shellcode.<br><br>Input should be in hexadecimal.";
+        this.description = "反汇编是将机器语言翻译成汇编语言的过程。<br><br>此操作支持为 Intel 或 AMD x86 处理器编写的 64 位、32 位和 16 位代码。它对于逆向工程 shellcode 特别有用。<br><br>输入应为十六进制。";
         this.infoURL = "https://wikipedia.org/wiki/X86";
         this.inputType = "string";
         this.outputType = "string";

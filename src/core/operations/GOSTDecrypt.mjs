@@ -23,7 +23,7 @@ class GOSTDecrypt extends Operation {
 
         this.name = "GOST Decrypt";
         this.module = "Ciphers";
-        this.description = "The GOST block cipher (Magma), defined in the standard GOST 28147-89 (RFC 5830), is a Soviet and Russian government standard symmetric key block cipher with a block size of 64 bits. The original standard, published in 1989, did not give the cipher any name, but the most recent revision of the standard, GOST R 34.12-2015 (RFC 7801, RFC 8891), specifies that it may be referred to as Magma. The GOST hash function is based on this cipher. The new standard also specifies a new 128-bit block cipher called Kuznyechik.<br><br>Developed in the 1970s, the standard had been marked 'Top Secret' and then downgraded to 'Secret' in 1990. Shortly after the dissolution of the USSR, it was declassified and it was released to the public in 1994. GOST 28147 was a Soviet alternative to the United States standard algorithm, DES. Thus, the two are very similar in structure.";
+        this.description = "GOST 分组密码（Magma），定义于标准 GOST 28147-89（RFC 5830），是苏联和俄罗斯政府标准的对称密钥分组密码，块大小为 64 位。1989 年发布的原始标准没有给该密码命名，但最新的标准修订版 GOST R 34.12-2015（RFC 7801，RFC 8891）规定可称为 Magma。GOST 哈希函数基于此密码。新标准还规定了一种名为 Kuznyechik 的新型 128 位分组密码。<br><br>该标准于 1970 年代开发，曾被标记为'绝密'，1990 年降级为'机密'。苏联解体后不久，它被解密并于 1994 年向公众发布。GOST 28147 是苏联对美国标准算法 DES 的替代方案。因此，两者在结构上非常相似。";
         this.infoURL = "https://wikipedia.org/wiki/GOST_(block_cipher)";
         this.inputType = "string";
         this.outputType = "string";

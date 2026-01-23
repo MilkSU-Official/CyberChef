@@ -22,7 +22,7 @@ class DESEncrypt extends Operation {
 
         this.name = "DES Encrypt";
         this.module = "Ciphers";
-        this.description = "DES is a previously dominant algorithm for encryption, and was published as an official U.S. Federal Information Processing Standard (FIPS). It is now considered to be insecure due to its small key size.<br><br><b>Key:</b> DES uses a key length of 8 bytes (64 bits).<br><br>You can generate a password-based key using one of the KDF operations.<br><br><b>IV:</b> The Initialization Vector should be 8 bytes long. If not entered, it will default to 8 null bytes.<br><br><b>Padding:</b> In CBC and ECB mode, PKCS#7 padding will be used.";
+        this.description = "DES 是曾经占主导地位的加密算法，曾作为美国联邦信息处理标准（FIPS）正式发布。由于密钥长度较短，现在被认为是不安全的。<br><br><b>密钥:</b> DES 使用 8 字节（64 位）的密钥长度。<br><br>您可以使用 KDF 操作生成基于密码的密钥。<br><br><b>IV:</b> 初始化向量应为 8 字节长。如果未输入，将默认为 8 个空字节。<br><br><b>填充:</b> 在 CBC 和 ECB 模式下，使用 PKCS#7 填充。";
         this.infoURL = "https://wikipedia.org/wiki/Data_Encryption_Standard";
         this.inputType = "string";
         this.outputType = "string";

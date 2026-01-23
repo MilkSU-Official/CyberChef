@@ -20,7 +20,7 @@ class LS47Decrypt extends Operation {
 
         this.name = "LS47 Decrypt";
         this.module = "Crypto";
-        this.description = "This is a slight improvement of the ElsieFour cipher as described by Alan Kaminsky. We use 7x7 characters instead of original (barely fitting) 6x6, to be able to encrypt some structured information. We also describe a simple key-expansion algorithm, because remembering passwords is popular. Similar security considerations as with ElsieFour hold.<br>The LS47 alphabet consists of following characters: <code>_abcdefghijklmnopqrstuvwxyz.0123456789,-+*/:?!'()</code><br>An LS47 key is a permutation of the alphabet that is then represented in a 7x7 grid used for the encryption or decryption.";
+        this.description = "这是 Alan Kaminsky 所描述的 ElsieFour 密码的轻微改进。我们使用 7x7 字符代替原来（勉强适合的）6x6，以便能够加密一些结构化信息。我们还描述了一个简单的密钥扩展算法，因为记忆密码很常见。与 ElsieFour 类似的安全考虑仍然适用。<br>LS47 字母表由以下字符组成：<code>_abcdefghijklmnopqrstuvwxyz.0123456789,-+*/:?!'()</code><br>LS47 密钥是字母表的一个排列，然后表示为用于加密或解密的 7x7 网格。";
         this.infoURL = "https://github.com/exaexa/ls47";
         this.inputType = "string";
         this.outputType = "string";

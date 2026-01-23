@@ -23,7 +23,7 @@ class ECDSASign extends Operation {
 
         this.name = "ECDSA Sign";
         this.module = "Ciphers";
-        this.description = "Sign a plaintext message with a PEM encoded EC key.";
+        this.description = "使用 PEM 编码的 EC 密钥对明文消息进行签名。";
         this.infoURL = "https://wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm";
         this.inputType = "string";
         this.outputType = "string";

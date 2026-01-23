@@ -21,7 +21,7 @@ class ToKebabCase extends Operation {
 
         this.name = "To Kebab case";
         this.module = "Code";
-        this.description = "Converts the input string to kebab case.\n<br><br>\nKebab case is all lower case with dashes as word boundaries.\n<br><br>\ne.g. this-is-kebab-case\n<br><br>\n'Attempt to be context aware' will make the operation attempt to nicely transform variable and function names.";
+        this.description = "将输入字符串转换为烤串式命名法。\n<br><br>\n烤串式命名法全部为小写，并以破折号作为单词边界。\n<br><br>\n例如：this-is-kebab-case\n<br><br>\n'尝试识别上下文' 将使操作尝试巧妙地转换变量和函数名称。";
         this.infoURL = "https://wikipedia.org/wiki/Kebab_case";
         this.inputType = "string";
         this.outputType = "string";

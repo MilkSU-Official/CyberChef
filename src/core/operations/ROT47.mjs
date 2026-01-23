@@ -20,7 +20,7 @@ class ROT47 extends Operation {
 
         this.name = "ROT47";
         this.module = "Default";
-        this.description = "A slightly more complex variation of a caesar cipher, which includes ASCII characters from 33 '!' to 126 '~'. Default rotation: 47.";
+        this.description = "凯撒密码的一个稍微更复杂的变体,包括从 33 '!' 到 126 '~' 的 ASCII 字符。默认旋转:47。";
         this.infoURL = "https://wikipedia.org/wiki/ROT13#Variants";
         this.inputType = "byteArray";
         this.outputType = "byteArray";

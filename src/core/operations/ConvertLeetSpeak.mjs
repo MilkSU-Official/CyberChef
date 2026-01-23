@@ -18,7 +18,7 @@ class ConvertLeetSpeak extends Operation {
 
         this.name = "Convert Leet Speak";
         this.module = "Default";
-        this.description = "Converts to and from Leet Speak.";
+        this.description = "将 Leet 语言与普通文本相互转换。";
         this.infoURL = "https://wikipedia.org/wiki/Leet";
         this.inputType = "string";
         this.outputType = "string";

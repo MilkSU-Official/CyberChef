@@ -23,7 +23,7 @@ class ECDSASignatureConversion extends Operation {
 
         this.name = "ECDSA Signature Conversion";
         this.module = "Ciphers";
-        this.description = "Convert an ECDSA signature between hex, asn1 and json.";
+        this.description = "在 hex、asn1 和 json 之间转换 ECDSA 签名。";
         this.infoURL = "https://wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm";
         this.inputType = "string";
         this.outputType = "string";

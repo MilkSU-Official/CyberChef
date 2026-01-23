@@ -23,7 +23,7 @@ class Filter extends Operation {
 
         this.name = "Filter";
         this.module = "Regex";
-        this.description = "Splits up the input using the specified delimiter and then filters each branch based on a regular expression.";
+        this.description = "使用指定的分隔符分割输入，然后基于正则表达式过滤每个分支。";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [

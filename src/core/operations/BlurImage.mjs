@@ -25,7 +25,7 @@ class BlurImage extends Operation {
 
         this.name = "Blur Image";
         this.module = "Image";
-        this.description = "Applies a blur effect to the image.<br><br>Gaussian blur is much slower than fast blur, but produces better results.";
+        this.description = "对图像应用模糊效果。<br><br>高斯模糊比快速模糊慢得多，但产生更好的结果。";
         this.infoURL = "https://wikipedia.org/wiki/Gaussian_blur";
         this.inputType = "ArrayBuffer";
         this.outputType = "ArrayBuffer";
