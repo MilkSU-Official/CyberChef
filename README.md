@@ -1,12 +1,12 @@
-# CyberChef 简体中文版 🇨🇳
+# CyberChef 简体中文版
 
 [![](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/gchq/CyberChef/blob/master/LICENSE)
 
 #### *网络安全瑞士军刀*
 
-> 🔗 **在线体验**: [misc.starneko.com](https://misc.starneko.com)
+> **在线体验**: [misc.starneko.com](https://misc.starneko.com)
 >
-> 🔗 **原版项目**: [gchq/CyberChef](https://github.com/gchq/CyberChef)
+> **原版项目**: [gchq/CyberChef](https://github.com/gchq/CyberChef)
 
 ---
 
@@ -16,20 +16,20 @@
 
 ### 汉化内容
 
-- ✅ **463 个操作**的描述文字全部翻译为中文
-- ✅ **主界面 UI** 完整汉化（输入/输出窗格、配方窗格、操作列表）
-- ✅ **选项设置对话框**（主题、日志级别、各项设置选项）
-- ✅ **保存/加载配方对话框**
-- ✅ **收藏夹编辑对话框**
-- ✅ **关于/支持对话框**（常见问题、报告问题、快捷键等）
-- ✅ **查找标签页对话框**
-- ✅ **下载对话框**
-- ✅ **所有按钮提示文字**
+- **463 个操作**的描述文字全部翻译为中文
+- **主界面 UI** 完整汉化（输入/输出窗格、配方窗格、操作列表）
+- **选项设置对话框**（主题、日志级别、各项设置选项）
+- **保存/加载配方对话框**
+- **收藏夹编辑对话框**
+- **关于/支持对话框**（常见问题、报告问题、快捷键等）
+- **查找标签页对话框**
+- **下载对话框**
+- **所有按钮提示文字**
 
 ### 其他修改
 
-- 🌙 默认主题更改为暗色模式 (Dark)
-- 🔗 添加自定义域名 CNAME
+- 默认主题更改为暗色模式 (Dark)
+- 添加自定义域名 CNAME
 
 ---
 
