@@ -1,8 +1,8 @@
-# CyberChef 简体中文版
+# CyberChef 部分汉化版
 
 [![](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/gchq/CyberChef/blob/master/LICENSE)
 
-#### *网络安全瑞士军刀*
+#### *CyberChef*
 
 > **在线体验**: [misc.starneko.com](https://misc.starneko.com)
 >
@@ -12,7 +12,7 @@
 
 ## 关于本项目
 
-本项目 Fork 自 [gchq/CyberChef](https://github.com/gchq/CyberChef)，进行了**完整的简体中文汉化**，方便中文用户使用。
+本项目 Fork 自 [gchq/CyberChef](https://github.com/gchq/CyberChef)，进行了**不完整的简体中文汉化**，方便中文用户使用。
 
 ### 汉化内容
 
